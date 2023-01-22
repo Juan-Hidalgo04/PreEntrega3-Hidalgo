@@ -1,0 +1,59 @@
+#main{
+    grid-area: main;
+}
+
+main{
+    section{
+        div{
+            span{
+                .content{
+                    flex-grow: 2;
+                }
+            }
+        }
+    }
+
+    h1{
+        @include titles;
+        color: $color-h1;
+        font-size: $tittle-font-size *3;
+    }
+
+    h2{
+        @include titles;
+        color: $color-h2-h3;
+        font-size: $tittle-font-size *2;
+    }
+
+    h3{
+        @include titles;
+        color: $color-h2-h3;
+        font-size: $tittle-font-size *1.5;
+    }
+    
+    p {
+        max-width: 600px;
+        line-height: 1.6;
+        margin: auto;
+        align-content: center;
+        padding-left: 10px;
+    }
+}
+
+#question {
+    resize: none;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.justify{
+    text-align: justify;
+    vertical-align: middle;
+}
+
+span ul li {
+    margin-left: 5px;
+}

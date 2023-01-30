@@ -16,7 +16,7 @@ body {
   grid-template-areas: "header" "main" "footer";
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background-color: #d6f3f5; }
+  font-family: "Rubik", sans-serif; }
 
 header {
   grid-area: header;
@@ -37,21 +37,21 @@ main h1 {
   text-align: center;
   font-family: "Rubik", sans-serif;
   margin: 20px;
-  color: #030332;
+  color: #044d67;
   font-size: 3rem; }
 
 main h2 {
   text-align: center;
   font-family: "Rubik", sans-serif;
   margin: 20px;
-  color: #000081;
+  color: #0ccbef;
   font-size: 2rem; }
 
 main h3 {
   text-align: center;
   font-family: "Rubik", sans-serif;
   margin: 20px;
-  color: #000081;
+  color: #59c2d8;
   font-size: 1.5rem; }
 
 main p {
@@ -75,6 +75,12 @@ main p {
 span ul li {
   margin-left: 5px; }
 
+p .justify {
+  margin: 0px 100px 0px 100px; }
+
 footer {
   grid-area: footer;
   width: 100vw; }
+  footer div div img {
+    max-width: 30px;
+    margin-left: 10px; }

@@ -1,4 +1,12 @@
 footer {
     grid-area: footer;
     width: 100vw;
+    div {
+        div {
+            img {
+                max-width: 30px;
+                margin-left: 10px;
+            }
+        }
+    }
 }

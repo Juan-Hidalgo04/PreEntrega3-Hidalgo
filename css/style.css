@@ -16,7 +16,8 @@ body {
   grid-template-areas: "header" "main" "footer";
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  font-family: "Rubik", sans-serif; }
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden; }
 
 header {
   grid-area: header;

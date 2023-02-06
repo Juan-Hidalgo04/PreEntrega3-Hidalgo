@@ -50,7 +50,7 @@ main h3 {
   font-size: 1.5rem; }
 
 main p {
-  max-width: 600px;
+  max-width: 1000px;
   line-height: 1.6;
   margin: auto;
   align-content: center;
@@ -69,9 +69,6 @@ main p {
 
 span ul li {
   margin-left: 5px; }
-
-p .justify {
-  margin: 0px 100px 0px 100px; }
 
 footer {
   grid-area: footer;
